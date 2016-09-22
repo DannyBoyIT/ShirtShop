@@ -71,7 +71,7 @@
     <Position X="8.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>gAiAABQAACAEAhAAAACBIAgCAkhAIIAIAhAJAAAgAEA=</HashCode>
-      <FileName>Registercs.cs</FileName>
+      <FileName>Register.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ShirtShop.Properties.Resources" Collapsed="true">
