@@ -18,11 +18,16 @@ namespace ShirtShop
          
         }
 
-        public static int CheckLoggedIn(User getRegistration)
+        public static void CheckIfAdmin()
         {
+           
+        }
 
-
-            return 0;
+        public static bool CheckLoggedIn(User LogIn)
+        {
+            
+            
+                return true;
         }
 
         public static bool CheckUserInput(User getRegistration)

@@ -54,7 +54,7 @@
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.txtUserName);
             this.groupBox1.Controls.Add(this.lbluserName);
-            this.groupBox1.Location = new System.Drawing.Point(197, 43);
+            this.groupBox1.Location = new System.Drawing.Point(184, 40);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(221, 249);
             this.groupBox1.TabIndex = 1;
@@ -63,12 +63,13 @@
             // 
             // btnLoggIn
             // 
+            this.btnLoggIn.BackColor = System.Drawing.Color.Gray;
             this.btnLoggIn.Location = new System.Drawing.Point(68, 194);
             this.btnLoggIn.Name = "btnLoggIn";
             this.btnLoggIn.Size = new System.Drawing.Size(90, 39);
             this.btnLoggIn.TabIndex = 4;
             this.btnLoggIn.Text = "Logga in";
-            this.btnLoggIn.UseVisualStyleBackColor = true;
+            this.btnLoggIn.UseVisualStyleBackColor = false;
             this.btnLoggIn.Click += new System.EventHandler(this.btnLoggIn_Click);
             // 
             // txtPassWord
@@ -96,17 +97,20 @@
             // 
             // btnRegisterNewUser
             // 
-            this.btnRegisterNewUser.Location = new System.Drawing.Point(218, 359);
+            this.btnRegisterNewUser.BackColor = System.Drawing.Color.Gray;
+            this.btnRegisterNewUser.Location = new System.Drawing.Point(202, 330);
             this.btnRegisterNewUser.Name = "btnRegisterNewUser";
             this.btnRegisterNewUser.Size = new System.Drawing.Size(187, 37);
             this.btnRegisterNewUser.TabIndex = 2;
             this.btnRegisterNewUser.Text = "Registrera ny användare";
-            this.btnRegisterNewUser.UseVisualStyleBackColor = true;
+            this.btnRegisterNewUser.UseVisualStyleBackColor = false;
+            this.btnRegisterNewUser.Click += new System.EventHandler(this.btnRegisterNewUser_Click);
             // 
             // fmrLogIn
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.ClientSize = new System.Drawing.Size(618, 437);
             this.Controls.Add(this.btnRegisterNewUser);
             this.Controls.Add(this.groupBox1);
