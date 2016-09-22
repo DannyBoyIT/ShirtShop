@@ -19,7 +19,18 @@ namespace ShirtShop
 
         private void btnLoggIn_Click(object sender, EventArgs e)
         {
+            var userName = txtUserName.Text;
+            var passWord = txtPassWord;
+           
+            
 
+        }
+
+        private void btnRegisterNewUser_Click(object sender, EventArgs e)
+        {
+            frmRegister registrateNew = new frmRegister();
+            registrateNew.Show();
+            this.Close();
         }
     }
 }
