@@ -22,9 +22,11 @@ namespace ShirtShop
            
         }
 
-        public static bool CheckLoggedIn(User getRegistration)
+        public static bool CheckLoggedIn(User LogIn)
         {
-            return true;
+            
+            
+                return true;
         }
 
         public static void CheckUserInput()

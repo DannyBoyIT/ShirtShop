@@ -30,11 +30,11 @@
         {
             this.lbluserName = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.btnRegisterNewUser = new System.Windows.Forms.Button();
-            this.txtUserName = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.txtPassWord = new System.Windows.Forms.TextBox();
             this.btnLoggIn = new System.Windows.Forms.Button();
+            this.txtPassWord = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.txtUserName = new System.Windows.Forms.TextBox();
+            this.btnRegisterNewUser = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -61,21 +61,22 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Logga In";
             // 
-            // btnRegisterNewUser
+            // btnLoggIn
             // 
-            this.btnRegisterNewUser.Location = new System.Drawing.Point(218, 359);
-            this.btnRegisterNewUser.Name = "btnRegisterNewUser";
-            this.btnRegisterNewUser.Size = new System.Drawing.Size(187, 37);
-            this.btnRegisterNewUser.TabIndex = 2;
-            this.btnRegisterNewUser.Text = "Registrera ny användare";
-            this.btnRegisterNewUser.UseVisualStyleBackColor = true;
+            this.btnLoggIn.Location = new System.Drawing.Point(68, 194);
+            this.btnLoggIn.Name = "btnLoggIn";
+            this.btnLoggIn.Size = new System.Drawing.Size(90, 39);
+            this.btnLoggIn.TabIndex = 4;
+            this.btnLoggIn.Text = "Logga in";
+            this.btnLoggIn.UseVisualStyleBackColor = true;
+            this.btnLoggIn.Click += new System.EventHandler(this.btnLoggIn_Click);
             // 
-            // txtUserName
+            // txtPassWord
             // 
-            this.txtUserName.Location = new System.Drawing.Point(18, 69);
-            this.txtUserName.Name = "txtUserName";
-            this.txtUserName.Size = new System.Drawing.Size(175, 22);
-            this.txtUserName.TabIndex = 1;
+            this.txtPassWord.Location = new System.Drawing.Point(21, 147);
+            this.txtPassWord.Name = "txtPassWord";
+            this.txtPassWord.Size = new System.Drawing.Size(172, 22);
+            this.txtPassWord.TabIndex = 3;
             // 
             // label1
             // 
@@ -86,22 +87,22 @@
             this.label1.TabIndex = 2;
             this.label1.Text = "Lösenord:";
             // 
-            // txtPassWord
+            // txtUserName
             // 
-            this.txtPassWord.Location = new System.Drawing.Point(21, 147);
-            this.txtPassWord.Name = "txtPassWord";
-            this.txtPassWord.Size = new System.Drawing.Size(172, 22);
-            this.txtPassWord.TabIndex = 3;
+            this.txtUserName.Location = new System.Drawing.Point(18, 69);
+            this.txtUserName.Name = "txtUserName";
+            this.txtUserName.Size = new System.Drawing.Size(175, 22);
+            this.txtUserName.TabIndex = 1;
             // 
-            // btnLoggIn
+            // btnRegisterNewUser
             // 
-            this.btnLoggIn.Location = new System.Drawing.Point(68, 194);
-            this.btnLoggIn.Name = "btnLoggIn";
-            this.btnLoggIn.Size = new System.Drawing.Size(90, 39);
-            this.btnLoggIn.TabIndex = 4;
-            this.btnLoggIn.Text = "Logga in";
-            this.btnLoggIn.UseVisualStyleBackColor = true;
-            this.btnLoggIn.Click += new System.EventHandler(this.btnLoggIn_Click);
+            this.btnRegisterNewUser.Location = new System.Drawing.Point(218, 340);
+            this.btnRegisterNewUser.Name = "btnRegisterNewUser";
+            this.btnRegisterNewUser.Size = new System.Drawing.Size(187, 37);
+            this.btnRegisterNewUser.TabIndex = 2;
+            this.btnRegisterNewUser.Text = "Registrera ny användare";
+            this.btnRegisterNewUser.UseVisualStyleBackColor = true;
+            this.btnRegisterNewUser.Click += new System.EventHandler(this.btnRegisterNewUser_Click);
             // 
             // LogIn
             // 
