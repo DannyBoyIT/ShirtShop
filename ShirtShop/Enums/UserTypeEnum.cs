@@ -8,8 +8,8 @@ namespace ShirtShop.Enums
 {
     public enum UserTypeEnum
     {
-        NoUser,
-        Admin,
-        User
+        NoUser = 0,
+        Admin = 1,
+        User = 2
     }
 }

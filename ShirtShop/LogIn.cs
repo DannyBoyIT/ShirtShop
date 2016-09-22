@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace ShirtShop
 {
     public partial class fmrLogIn : Form
@@ -19,10 +20,8 @@ namespace ShirtShop
 
         private void btnLoggIn_Click(object sender, EventArgs e)
         {
-            var userName = txtUserName.Text;
-            var passWord = txtPassWord;
-           
-            
+            int typeOfUser = ShirtShop.Validate.CheckLoggedIn(txtUserName.Text, txtPassWord.Text);
+
 
         }
 

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using ShirtShop.Enums;
 
 namespace ShirtShop
 {
@@ -10,24 +11,25 @@ namespace ShirtShop
     {
         public static void CheckAvailability()
         {
-         
+
         }
 
         public static void CheckDiscount()
         {
-         
+
         }
 
         public static void CheckIfAdmin()
         {
-           
+
         }
 
-        public static bool CheckLoggedIn(User LogIn)
+        public static int CheckLoggedIn(string userName, string password)
         {
-            
-            
-                return true;
+            //TODO Fixa check till databasen
+            //UserTypeEnum
+
+            return 0;
         }
 
         public static bool CheckUserInput(User getRegistration)

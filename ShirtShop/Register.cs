@@ -62,7 +62,7 @@ namespace ShirtShop
                 newRegistration.Username = txtUsername.Text;
                 newRegistration.Password = txtPassword.Text;
 
-                var AllInputOk = ShirtShop.Validate.CheckLoggedIn(newRegistration);
+                var AllInputOk = ShirtShop.Validate.CheckUserInput(newRegistration);
 
                 if (AllInputOk)
                 {

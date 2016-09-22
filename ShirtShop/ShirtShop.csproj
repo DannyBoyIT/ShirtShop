@@ -53,6 +53,7 @@
     <Compile Include="Entities\Program.cs" />
     <Compile Include="Entities\User.cs" />
     <Compile Include="Entities\Validate.cs" />
+    <Compile Include="Enums\UserTypeEnum.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
