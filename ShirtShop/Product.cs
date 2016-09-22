@@ -7,77 +7,17 @@ namespace ShirtShop
 {
     public class Product : IProduct
     {
-        public int Contity
-        {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
+        
+        //public int Quantity { get; set; }
+       
+        public string Name { get; set; }
 
-            set
-            {
-            }
-        }
+        public int Price { get; set; }
 
-        public string Name
-        {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
+        public int ProductID { get; set; }
 
-            set
-            {
-            }
-        }
+        public string Size { get; set; }
 
-        public int Price
-        {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-
-            set
-            {
-            }
-        }
-
-        public int ProductID
-        {
-            get
-            {
-                throw new NotImplementedException();
-            }
-
-            set
-            {
-                throw new NotImplementedException();
-            }
-        }
-
-        public int Size
-        {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-
-            set
-            {
-            }
-        }
-
-        public string Type
-        {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-
-            set
-            {
-            }
-        }
+        public string Type { get; set; }
     }
 }
