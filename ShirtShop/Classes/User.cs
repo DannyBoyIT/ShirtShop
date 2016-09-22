@@ -98,7 +98,7 @@ namespace ShirtShop
             }
         }
 
-        stirng IUser.Address
+        string IUser.Address
         {
             get
             {
