@@ -115,6 +115,8 @@ namespace ShirtShop
             shirt4.ProductID = 214;
             shirt4.Size = "M";
             shirt4.Type = "T-shirt";
+            shirt4.Gender = "Man";
+            shirt4.IsChild = false;
 
             var shirt5 = new Product();
             shirts.Add(shirt5);
@@ -123,6 +125,8 @@ namespace ShirtShop
             shirt5.ProductID = 215;
             shirt5.Size = "S";
             shirt5.Type = "T-shirt";
+            shirt5.Gender = "Man";
+            shirt5.IsChild = false;
 
             return shirts;
         }
@@ -138,6 +142,8 @@ namespace ShirtShop
             shoe1.ProductID = 311;
             shoe1.Size = "45";
             shoe1.Type = "Sko";
+            shoe1.Gender = "Kvinna";
+            shoe1.IsChild = true;
 
             var shoe2 = new Product();
             shoes.Add(shoe2);
@@ -146,6 +152,8 @@ namespace ShirtShop
             shoe2.ProductID = 312;
             shoe2.Size = "42";
             shoe2.Type = "Sko";
+            shoe2.Gender = "Man";
+            shoe2.IsChild = false;
 
             var shoe3 = new Product();
             shoes.Add(shoe3);
@@ -154,6 +162,8 @@ namespace ShirtShop
             shoe3.ProductID = 313;
             shoe3.Size = "39";
             shoe3.Type = "Sko";
+            shoe3.Gender = "Kvinna";
+            shoe3.IsChild = false;
 
             var shoe4 = new Product();
             shoes.Add(shoe4);
@@ -162,6 +172,8 @@ namespace ShirtShop
             shoe4.ProductID = 314;
             shoe4.Size = "40";
             shoe4.Type = "Sko";
+            shoe4.Gender = "Man";
+            shoe4.IsChild = false;
 
             var shoe5 = new Product();
             shoes.Add(shoe5);
@@ -170,6 +182,8 @@ namespace ShirtShop
             shoe5.ProductID = 315;
             shoe5.Size = "43";
             shoe5.Type = "Sko";
+            shoe5.Gender = "Kvinna";
+            shoe5.IsChild = false;
 
             return shoes;
         }
