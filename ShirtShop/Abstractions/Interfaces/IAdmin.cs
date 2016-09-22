@@ -5,10 +5,4 @@ using System.Text;
 
 namespace ShirtShop
 {
-    public interface IAdmin
-    {
-        void AddProduct();
-        void ChangeProduct();
-        void RemoveProduct();
-    }
 }

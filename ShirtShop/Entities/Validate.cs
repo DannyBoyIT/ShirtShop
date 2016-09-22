@@ -30,37 +30,37 @@ namespace ShirtShop
             bool inputOk = true;
             if (string.IsNullOrWhiteSpace(getRegistration.FirstName))
             {
-                MessageBox.Show("Fel förnamn!");
+                MessageBox.Show("Förnamnet saknas!");
                 inputOk = false;
             }
             if (string.IsNullOrWhiteSpace(getRegistration.LastName))
             {
-                MessageBox.Show("Fel efternamn!");
+                MessageBox.Show("Efternamnet saknas!");
                 inputOk = false;
             }
             if (string.IsNullOrWhiteSpace(getRegistration.Email))
             {
-                MessageBox.Show("Fel email!");
+                MessageBox.Show("Emailet saknas!");
                 inputOk = false;
             }
             if (string.IsNullOrWhiteSpace(getRegistration.Address))
             {
-                MessageBox.Show("Fel adress!");
+                MessageBox.Show("Adressen saknas!!");
                 inputOk = false;
             }
             if (string.IsNullOrWhiteSpace(getRegistration.City))
             {
-                MessageBox.Show("Fel stad!");
+                MessageBox.Show("Staden saknas!");
                 inputOk = false;
             }
             if (string.IsNullOrWhiteSpace(getRegistration.Username))
             {
-                MessageBox.Show("Fel användarnamn!");
+                MessageBox.Show("Användarnamnet saknas!");
                 inputOk = false;
             }
             if (string.IsNullOrWhiteSpace(getRegistration.Password))
             {
-                MessageBox.Show("Fel lösenord!");
+                MessageBox.Show("Lösenordet saknas");
                 inputOk = false;
             }
 
