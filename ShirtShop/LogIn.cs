@@ -10,16 +10,14 @@ using System.Windows.Forms;
 
 namespace ShirtShop
 {
-    public partial class frmMain : Form
+    public partial class fmrLogIn : Form
     {
-        public frmMain()
+        public fmrLogIn()
         {
             InitializeComponent();
-            var database = new DatabaseRepository();
-            database.GetAllHats();
         }
 
-        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        private void btnLoggIn_Click(object sender, EventArgs e)
         {
 
         }
