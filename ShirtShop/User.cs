@@ -7,118 +7,18 @@ namespace ShirtShop
 {
     public class User : IUser
     {
-        public string Address
-        {
-            get
-            {
-                throw new NotImplementedException();
-            }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string Email { get; set; }
+        public string Address { get; set; }  
+        public string City { get; set; }      
+        public string Telephone { get; set; }
+        public string Username { get; set; }
+        public string Password { get; set; }
 
-            set
-            {
-                throw new NotImplementedException();
-            }
-        }
 
-        public string Email
-        {
-            get
-            {
-                throw new NotImplementedException();
-            }
+        public void LogIn() { }
 
-            set
-            {
-                throw new NotImplementedException();
-            }
-        }
-
-        public string FirstName
-        {
-            get
-            {
-                throw new NotImplementedException();
-            }
-
-            set
-            {
-                throw new NotImplementedException();
-            }
-        }
-
-        public string LastName
-        {
-            get
-            {
-                throw new NotImplementedException();
-            }
-
-            set
-            {
-                throw new NotImplementedException();
-            }
-        }
-
-        public string MobileNumber
-        {
-            get
-            {
-                throw new NotImplementedException();
-            }
-
-            set
-            {
-                throw new NotImplementedException();
-            }
-        }
-
-        public string Password
-        {
-            get
-            {
-                throw new NotImplementedException();
-            }
-
-            set
-            {
-                throw new NotImplementedException();
-            }
-        }
-
-        public string Username
-        {
-            get
-            {
-                throw new NotImplementedException();
-            }
-
-            set
-            {
-                throw new NotImplementedException();
-            }
-        }
-
-        stirng IUser.Address
-        {
-            get
-            {
-                throw new NotImplementedException();
-            }
-
-            set
-            {
-                throw new NotImplementedException();
-            }
-        }
-
-        public void LogIn()
-        {
-            throw new NotImplementedException();
-        }
-
-        public void LogOut()
-        {
-            throw new NotImplementedException();
-        }
+        public void LogOut() { }
     }
 }

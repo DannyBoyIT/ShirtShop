@@ -7,13 +7,15 @@ namespace ShirtShop
 {
     public interface IUser
     {
-        string Address { get; set; }
-        string Email { get; set; }
         string FirstName { get; set; }
         string LastName { get; set; }
-        string MobileNumber { get; set; }
-        string Password { get; set; }
+        string Email { get; set; }
+        string Address { get; set; }
+        string City { get; set; }
+        string Telephone { get; set; }
         string Username { get; set; }
+        string Password { get; set; }
+        
 
         void LogIn();
         void LogOut();

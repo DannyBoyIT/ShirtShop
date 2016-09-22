@@ -5,31 +5,31 @@ using System.Text;
 
 namespace ShirtShop
 {
-    public class Validate : IValidate
+    public static class Validate
     {
-        public void CheckAvailability()
+        public static void CheckAvailability()
         {
-            throw new NotImplementedException();
+         
         }
 
-        public void CheckDiscount()
+        public static void CheckDiscount()
         {
-            throw new NotImplementedException();
+         
         }
 
-        public void CheckIfAdmin()
+        public static void CheckIfAdmin()
         {
-            throw new NotImplementedException();
+           
         }
 
-        public void CheckLoggedIn()
+        public static bool CheckLoggedIn(User getRegistration)
         {
-            throw new NotImplementedException();
+            return true;
         }
 
-        public void CheckUserInput()
+        public static void CheckUserInput()
         {
-            throw new NotImplementedException();
+           
         }
     }
 }

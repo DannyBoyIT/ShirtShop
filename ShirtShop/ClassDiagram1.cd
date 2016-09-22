@@ -58,10 +58,10 @@
     </TypeIdentifier>
     <Lollipop Position="0.2" Collapsed="true" />
   </Class>
-  <Class Name="ShirtShop.User" Collapsed="true" BaseTypeListCollapsed="true">
+  <Class Name="ShirtShop.User" BaseTypeListCollapsed="true">
     <Position X="9.5" Y="3.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAACEAAACAAAAABAwAAAAAAAAAAABACAAAAAAAAAAg=</HashCode>
+      <HashCode>AAAAAEAAACAAAAAIAwAAAAAAAAAAABACAIAAAAAAAAg=</HashCode>
       <FileName>User.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" Collapsed="true" />
@@ -72,7 +72,6 @@
       <HashCode>AAAAAAAAAAAAAAAAAAAAAEIAEAAAAAAAgACAAAAAAAA=</HashCode>
       <FileName>Validate.cs</FileName>
     </TypeIdentifier>
-    <Lollipop Position="0.2" Collapsed="true" />
   </Class>
   <Interface Name="ShirtShop.IProduct">
     <Position X="2.25" Y="2.75" Width="1.5" />
@@ -102,18 +101,11 @@
       <FileName>IOrder.cs</FileName>
     </TypeIdentifier>
   </Interface>
-  <Interface Name="ShirtShop.IUser" Collapsed="true">
+  <Interface Name="ShirtShop.IUser">
     <Position X="7.25" Y="3.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAACEAAACAAAAAAAwAAAAAAAAAAABACAAAAAAAAAAg=</HashCode>
+      <HashCode>AAAAAEAAACAAAAAIAwAAAAAAAAAAABACAIAAAAAAAAg=</HashCode>
       <FileName>IUser.cs</FileName>
-    </TypeIdentifier>
-  </Interface>
-  <Interface Name="ShirtShop.IValidate" Collapsed="true">
-    <Position X="7.75" Y="2.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAEIAEAAAAAAAgACAAAAAAAA=</HashCode>
-      <FileName>IValidate.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Font Name="Segoe UI" Size="9" />
