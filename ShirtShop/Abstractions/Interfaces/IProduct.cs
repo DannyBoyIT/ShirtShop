@@ -7,11 +7,11 @@ namespace ShirtShop
 {
     public interface IProduct
     {
-        int Contity { get; set; }
+        //int Quantity { get; set; }
         string Name { get; set; }
         int Price { get; set; }
         int ProductID { get; set; }
-        int Size { get; set; }
+        string Size { get; set; }
         string Type { get; set; }
     }
 }
