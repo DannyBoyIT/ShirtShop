@@ -78,8 +78,6 @@
     <Compile Include="Registercs.Designer.cs">
       <DependentUpon>Registercs.cs</DependentUpon>
     </Compile>
-    <Compile Include="Validate.cs" />
-    <Compile Include="User.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -98,8 +96,6 @@
     <EmbeddedResource Include="Registercs.resx">
       <DependentUpon>Registercs.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="ClassDiagram1.cd" />
-    <None Include="ClassDiagram2.cd" />
     <None Include="ClassDiagram1.cd" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
