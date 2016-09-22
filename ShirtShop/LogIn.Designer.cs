@@ -96,13 +96,12 @@
             // 
             // btnRegisterNewUser
             // 
-            this.btnRegisterNewUser.Location = new System.Drawing.Point(218, 340);
+            this.btnRegisterNewUser.Location = new System.Drawing.Point(218, 359);
             this.btnRegisterNewUser.Name = "btnRegisterNewUser";
             this.btnRegisterNewUser.Size = new System.Drawing.Size(187, 37);
             this.btnRegisterNewUser.TabIndex = 2;
             this.btnRegisterNewUser.Text = "Registrera ny användare";
             this.btnRegisterNewUser.UseVisualStyleBackColor = true;
-            this.btnRegisterNewUser.Click += new System.EventHandler(this.btnRegisterNewUser_Click);
             // 
             // fmrLogIn
             // 
