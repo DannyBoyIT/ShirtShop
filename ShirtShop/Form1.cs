@@ -18,5 +18,10 @@ namespace ShirtShop
             var database = new DatabaseRepository();
             database.GetAllHats();
         }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
+        }
     }
 }
