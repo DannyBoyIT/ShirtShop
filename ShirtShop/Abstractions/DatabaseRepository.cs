@@ -17,9 +17,20 @@ namespace ShirtShop
             throw new NotImplementedException();
         }
 
-        public void GetAllHats()
+        public List<Product> GetAllHats()
         {
-            throw new NotImplementedException();
+            var hats = new List<Product>();
+
+            var hat = new Product();
+            hats.Add(hat);
+            //hat.Quantity = 4;
+            hat.Name = "Filthatt";
+            hat.Price = 499;
+            hat.ProductID = 111;
+            hat.Size = "M";
+            hat.Type = "Hat";
+
+            return hats;
         }
 
         public void GetAllShirts()
