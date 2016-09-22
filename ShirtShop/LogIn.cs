@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ShirtShop
 {
-    public partial class LogIn : Form
+    public partial class fmrLogIn : Form
     {
-        public LogIn()
+        public fmrLogIn()
         {
             InitializeComponent();
         }

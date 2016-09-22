@@ -40,7 +40,7 @@ namespace ShirtShop
 
         private void btnAlreadyAMember_Click(object sender, EventArgs e)
         {
-            frmLogin.Show();
+            
             this.Close();
           
         }
