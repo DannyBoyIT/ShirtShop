@@ -15,8 +15,6 @@ namespace ShirtShop
         public frmMain()
         {
             InitializeComponent();
-            var database = new DatabaseRepository();
-            database.GetAllHats();
         }
     }
 }

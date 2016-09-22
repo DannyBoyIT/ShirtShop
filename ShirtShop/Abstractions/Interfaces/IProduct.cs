@@ -13,5 +13,7 @@ namespace ShirtShop
         int ProductID { get; set; }
         string Size { get; set; }
         string Type { get; set; }
+        string Gender { get; set; }
+        bool IsChild { get; set; }
     }
 }
