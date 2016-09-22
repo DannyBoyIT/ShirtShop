@@ -64,7 +64,6 @@
     <Compile Include="Abstractions\Interfaces\IOrder.cs" />
     <Compile Include="Abstractions\Interfaces\IProduct.cs" />
     <Compile Include="Abstractions\Interfaces\IUser.cs" />
-    <Compile Include="Abstractions\Interfaces\IValidate.cs" />
     <Compile Include="LogIn.cs">
       <SubType>Form</SubType>
     </Compile>
