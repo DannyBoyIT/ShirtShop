@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using 
+using ShirtShop.Enums; 
 
 
 namespace ShirtShop
@@ -21,12 +21,18 @@ namespace ShirtShop
 
         private void btnLoggIn_Click(object sender, EventArgs e)
         {
-            Enum typeOfUser = ShirtShop.Validate.CheckLoggedIn(txtUserName.Text, txtPassWord.Text);
+            UserTypeEnum typeOfUser = ShirtShop.Validate.CheckLoggedIn(txtUserName.Text, txtPassWord.Text);
 
-            if (true)
+            if (typeOfUser == UserTypeEnum.Admin)
             {
-                
+                //frmAdmin.Show();
+                this.Close();
             }
+            else if (typeOfUser == UserTypeEnum.User)
+            {
+                this.Close();
+            }
+
 
         }
 

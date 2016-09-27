@@ -35,7 +35,6 @@
             this.llblLogIn = new System.Windows.Forms.LinkLabel();
             this.llblRegisterNewUser = new System.Windows.Forms.LinkLabel();
             this.llblShoppingCart = new System.Windows.Forms.LinkLabel();
-            this.llblCachRegister = new System.Windows.Forms.LinkLabel();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
@@ -58,7 +57,7 @@
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(1628, 147);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(378, 38);
             this.textBox1.TabIndex = 4;
@@ -68,7 +67,7 @@
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 31;
             this.listBox1.Location = new System.Drawing.Point(788, 223);
-            this.listBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.listBox1.Margin = new System.Windows.Forms.Padding(4);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(900, 531);
             this.listBox1.TabIndex = 6;
@@ -81,7 +80,7 @@
             "T-shirts",
             "Skor"});
             this.comboBox1.Location = new System.Drawing.Point(22, 81);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(4);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(216, 39);
             this.comboBox1.TabIndex = 7;
@@ -91,7 +90,7 @@
             this.llblLogIn.AutoSize = true;
             this.llblLogIn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.llblLogIn.LinkColor = System.Drawing.Color.Black;
-            this.llblLogIn.Location = new System.Drawing.Point(1420, 43);
+            this.llblLogIn.Location = new System.Drawing.Point(1506, 43);
             this.llblLogIn.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.llblLogIn.Name = "llblLogIn";
             this.llblLogIn.Size = new System.Drawing.Size(125, 32);
@@ -105,7 +104,7 @@
             this.llblRegisterNewUser.AutoSize = true;
             this.llblRegisterNewUser.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.llblRegisterNewUser.LinkColor = System.Drawing.Color.Black;
-            this.llblRegisterNewUser.Location = new System.Drawing.Point(1568, 43);
+            this.llblRegisterNewUser.Location = new System.Drawing.Point(1669, 43);
             this.llblRegisterNewUser.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.llblRegisterNewUser.Name = "llblRegisterNewUser";
             this.llblRegisterNewUser.Size = new System.Drawing.Size(146, 32);
@@ -119,7 +118,7 @@
             this.llblShoppingCart.AutoSize = true;
             this.llblShoppingCart.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.llblShoppingCart.LinkColor = System.Drawing.Color.Black;
-            this.llblShoppingCart.Location = new System.Drawing.Point(1744, 43);
+            this.llblShoppingCart.Location = new System.Drawing.Point(1860, 43);
             this.llblShoppingCart.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.llblShoppingCart.Name = "llblShoppingCart";
             this.llblShoppingCart.Size = new System.Drawing.Size(130, 32);
@@ -127,19 +126,6 @@
             this.llblShoppingCart.TabStop = true;
             this.llblShoppingCart.Text = "Varukorg";
             this.llblShoppingCart.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.llblShoppingCart_LinkClicked);
-            // 
-            // llblCachRegister
-            // 
-            this.llblCachRegister.AutoSize = true;
-            this.llblCachRegister.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.llblCachRegister.LinkColor = System.Drawing.Color.Black;
-            this.llblCachRegister.Location = new System.Drawing.Point(1916, 43);
-            this.llblCachRegister.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.llblCachRegister.Name = "llblCachRegister";
-            this.llblCachRegister.Size = new System.Drawing.Size(94, 32);
-            this.llblCachRegister.TabIndex = 12;
-            this.llblCachRegister.TabStop = true;
-            this.llblCachRegister.Text = "Kassa";
             // 
             // linkLabel1
             // 
@@ -162,7 +148,7 @@
             "T-shirts",
             "Skor"});
             this.comboBox2.Location = new System.Drawing.Point(278, 81);
-            this.comboBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.comboBox2.Margin = new System.Windows.Forms.Padding(4);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(216, 39);
             this.comboBox2.TabIndex = 15;
@@ -175,7 +161,7 @@
             "T-shirts",
             "Skor"});
             this.comboBox3.Location = new System.Drawing.Point(528, 81);
-            this.comboBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.comboBox3.Margin = new System.Windows.Forms.Padding(4);
             this.comboBox3.Name = "comboBox3";
             this.comboBox3.Size = new System.Drawing.Size(216, 39);
             this.comboBox3.TabIndex = 16;
@@ -225,7 +211,6 @@
             this.Controls.Add(this.comboBox3);
             this.Controls.Add(this.comboBox2);
             this.Controls.Add(this.linkLabel1);
-            this.Controls.Add(this.llblCachRegister);
             this.Controls.Add(this.llblShoppingCart);
             this.Controls.Add(this.llblRegisterNewUser);
             this.Controls.Add(this.llblLogIn);
@@ -233,7 +218,7 @@
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "frmMain";
             this.Text = "ShirtShop";
             this.ResumeLayout(false);
@@ -249,7 +234,6 @@
         private System.Windows.Forms.LinkLabel llblLogIn;
         private System.Windows.Forms.LinkLabel llblRegisterNewUser;
         private System.Windows.Forms.LinkLabel llblShoppingCart;
-        private System.Windows.Forms.LinkLabel llblCachRegister;
         private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.ComboBox comboBox3;
