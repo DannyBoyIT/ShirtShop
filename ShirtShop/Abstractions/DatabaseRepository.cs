@@ -254,32 +254,32 @@ namespace ShirtShop
 
         public void GetHat()
         {
-            throw new NotImplementedException();
+            
         }
 
         public void GetShirt()
         {
-            throw new NotImplementedException();
+            
         }
 
         public void GetShoes()
         {
-            throw new NotImplementedException();
+            
         }
 
         public void SetHat()
         {
-            throw new NotImplementedException();
+            
         }
 
         public void SetShirt()
         {
-            throw new NotImplementedException();
+            
         }
 
         public void SetShoes()
         {
-            throw new NotImplementedException();
+            
         }
     }
 }
