@@ -263,6 +263,7 @@
             this.cmbGender.Name = "cmbGender";
             this.cmbGender.Size = new System.Drawing.Size(121, 24);
             this.cmbGender.TabIndex = 0;
+
             // 
             // lblGender
             // 

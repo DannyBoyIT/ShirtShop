@@ -34,5 +34,15 @@ namespace ShirtShop
             frmCart newFrmCart = new frmCart();
             newFrmCart.Show();
         }
+
+        private void cmbMan_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            //TODO write code for all comboboxes
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            //TODO Write code for search button
+        }
     }
 }
