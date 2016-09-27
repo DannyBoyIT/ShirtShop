@@ -31,7 +31,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.listBox1 = new System.Windows.Forms.ListBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cmbMan = new System.Windows.Forms.ComboBox();
             this.llblLogIn = new System.Windows.Forms.LinkLabel();
             this.llblRegisterNewUser = new System.Windows.Forms.LinkLabel();
             this.llblShoppingCart = new System.Windows.Forms.LinkLabel();
@@ -72,18 +72,18 @@
             this.listBox1.Size = new System.Drawing.Size(900, 531);
             this.listBox1.TabIndex = 6;
             // 
-            // comboBox1
+            // cmbMan
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.cmbMan.FormattingEnabled = true;
+            this.cmbMan.Items.AddRange(new object[] {
             "Hattar",
             "T-shirts",
             "Skor"});
-            this.comboBox1.Location = new System.Drawing.Point(22, 81);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(216, 39);
-            this.comboBox1.TabIndex = 7;
+            this.cmbMan.Location = new System.Drawing.Point(22, 81);
+            this.cmbMan.Margin = new System.Windows.Forms.Padding(4);
+            this.cmbMan.Name = "cmbMan";
+            this.cmbMan.Size = new System.Drawing.Size(216, 39);
+            this.cmbMan.TabIndex = 7;
             // 
             // llblLogIn
             // 
@@ -214,7 +214,7 @@
             this.Controls.Add(this.llblShoppingCart);
             this.Controls.Add(this.llblRegisterNewUser);
             this.Controls.Add(this.llblLogIn);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.cmbMan);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
@@ -230,7 +230,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.ListBox listBox1;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cmbMan;
         private System.Windows.Forms.LinkLabel llblLogIn;
         private System.Windows.Forms.LinkLabel llblRegisterNewUser;
         private System.Windows.Forms.LinkLabel llblShoppingCart;

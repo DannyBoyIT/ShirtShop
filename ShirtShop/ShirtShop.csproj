@@ -60,6 +60,12 @@
     <Compile Include="Entities\User.cs" />
     <Compile Include="Entities\Validate.cs" />
     <Compile Include="Enums\UserTypeEnum.cs" />
+    <Compile Include="Forms\FrmCashRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmCashRegister.Designer.cs">
+      <DependentUpon>FrmCashRegister.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -86,6 +92,9 @@
     </Compile>
     <EmbeddedResource Include="Forms\Cart.resx">
       <DependentUpon>Cart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmCashRegister.resx">
+      <DependentUpon>FrmCashRegister.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
