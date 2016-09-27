@@ -17,7 +17,7 @@
     <Lollipop Position="0.2" Collapsed="true" />
   </Class>
   <Class Name="ShirtShop.Order" Collapsed="true" BaseTypeListCollapsed="true">
-    <Position X="0.5" Y="1.5" Width="1.5" />
+    <Position X="2.25" Y="1.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAEIAAAAAAAAAAAAIQAAAAgAAAAAAAAAAQAAAAAI=</HashCode>
       <FileName>Entities\Order.cs</FileName>
@@ -25,22 +25,22 @@
     <Lollipop Position="0.2" Collapsed="true" />
   </Class>
   <Class Name="ShirtShop.Product" Collapsed="true" BaseTypeListCollapsed="true">
-    <Position X="2.25" Y="1.5" Width="1.5" />
+    <Position X="4" Y="1.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>EAAAAAAAAQAAgACAAAAACAQAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <HashCode>EAAAAAAAAQAAgAAAAAAAAAQAAAAAAAAAAQAAAAAAAAA=</HashCode>
       <FileName>Entities\Product.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" Collapsed="true" />
   </Class>
   <Class Name="ShirtShop.Program" Collapsed="true">
-    <Position X="4" Y="1.5" Width="1.5" />
+    <Position X="5.75" Y="1.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
       <FileName>Entities\Program.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ShirtShop.User" Collapsed="true" BaseTypeListCollapsed="true">
-    <Position X="2.25" Y="2.5" Width="1.5" />
+    <Position X="4" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAEAAACAAAAAIAwAAAAAAAAAAABACAIAAAAAAAAg=</HashCode>
       <FileName>Entities\User.cs</FileName>
@@ -48,7 +48,7 @@
     <Lollipop Position="0.2" Collapsed="true" />
   </Class>
   <Class Name="ShirtShop.Validate" Collapsed="true">
-    <Position X="4" Y="2.5" Width="1.5" />
+    <Position X="5.75" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAEIAEAAAAAAAgACAAAAAAAA=</HashCode>
       <FileName>Entities\Validate.cs</FileName>
@@ -57,8 +57,15 @@
   <Class Name="ShirtShop.frmMain" Collapsed="true">
     <Position X="4" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAEAACAAABgQAASAEAACAAAgAAAAEAAAAAACAEA=</HashCode>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShirtShop.LogIn" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQACAAADAAAACAAAAiAAAAAAAAEiAAAAQABAA=</HashCode>
+      <FileName>LogIn.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ShirtShop.frmRegister" Collapsed="true">
@@ -69,13 +76,13 @@
     </TypeIdentifier>
   </Class>
   <Class Name="ShirtShop.Properties.Resources" Collapsed="true">
-    <Position X="5.75" Y="1.5" Width="1.5" />
+    <Position X="0.5" Y="2.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAUAAAAAAAAAAAAAAAIA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
     </TypeIdentifier>
   </Class>
   <Class Name="ShirtShop.Properties.Settings" Collapsed="true">
-    <Position X="0.5" Y="2.5" Width="1.5" />
+    <Position X="2.25" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
     </TypeIdentifier>
@@ -104,7 +111,7 @@
   <Interface Name="ShirtShop.IProduct" Collapsed="true">
     <Position X="5.75" Y="3.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>EAAAAAAAAQAAgACAAAAACAQAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <HashCode>EAAAAAAAAQAAgAAAAAAAAAQAAAAAAAAAAQAAAAAAAAA=</HashCode>
       <FileName>Abstractions\Interfaces\IProduct.cs</FileName>
     </TypeIdentifier>
   </Interface>
