@@ -37,6 +37,23 @@
             this.lstProducts = new System.Windows.Forms.ListBox();
             this.txtSearch = new System.Windows.Forms.TextBox();
             this.lblSearch = new System.Windows.Forms.Label();
+            this.txtName = new System.Windows.Forms.TextBox();
+            this.txtPrice = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.lblName = new System.Windows.Forms.Label();
+            this.lblPrice = new System.Windows.Forms.Label();
+            this.lblType = new System.Windows.Forms.Label();
+            this.lblGender = new System.Windows.Forms.Label();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.lblSize = new System.Windows.Forms.Label();
+            this.cboGender = new System.Windows.Forms.ComboBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.cboType = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // lblWomen
@@ -140,12 +157,182 @@
             this.lblSearch.TabIndex = 20;
             this.lblSearch.Text = "Sök";
             // 
+            // txtName
+            // 
+            this.txtName.Location = new System.Drawing.Point(139, 115);
+            this.txtName.Name = "txtName";
+            this.txtName.Size = new System.Drawing.Size(160, 22);
+            this.txtName.TabIndex = 29;
+            // 
+            // txtPrice
+            // 
+            this.txtPrice.Location = new System.Drawing.Point(139, 143);
+            this.txtPrice.Name = "txtPrice";
+            this.txtPrice.Size = new System.Drawing.Size(160, 22);
+            this.txtPrice.TabIndex = 29;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(394, 397);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 30;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(475, 397);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 30;
+            this.button2.Text = "button1";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(394, 397);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.TabIndex = 30;
+            this.button3.Text = "button1";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(475, 397);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.TabIndex = 30;
+            this.button4.Text = "button1";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(139, 311);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(75, 23);
+            this.button5.TabIndex = 30;
+            this.button5.Text = "button1";
+            this.button5.UseVisualStyleBackColor = true;
+            // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(224, 311);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(75, 23);
+            this.button6.TabIndex = 30;
+            this.button6.Text = "button1";
+            this.button6.UseVisualStyleBackColor = true;
+            // 
+            // lblName
+            // 
+            this.lblName.AutoSize = true;
+            this.lblName.Location = new System.Drawing.Point(86, 118);
+            this.lblName.Name = "lblName";
+            this.lblName.Size = new System.Drawing.Size(45, 17);
+            this.lblName.TabIndex = 31;
+            this.lblName.Text = "Namn";
+            // 
+            // lblPrice
+            // 
+            this.lblPrice.AutoSize = true;
+            this.lblPrice.Location = new System.Drawing.Point(86, 146);
+            this.lblPrice.Name = "lblPrice";
+            this.lblPrice.Size = new System.Drawing.Size(32, 17);
+            this.lblPrice.TabIndex = 31;
+            this.lblPrice.Text = "Pris";
+            // 
+            // lblType
+            // 
+            this.lblType.AutoSize = true;
+            this.lblType.Location = new System.Drawing.Point(86, 202);
+            this.lblType.Name = "lblType";
+            this.lblType.Size = new System.Drawing.Size(32, 17);
+            this.lblType.TabIndex = 31;
+            this.lblType.Text = "Typ";
+            // 
+            // lblGender
+            // 
+            this.lblGender.AutoSize = true;
+            this.lblGender.Location = new System.Drawing.Point(86, 230);
+            this.lblGender.Name = "lblGender";
+            this.lblGender.Size = new System.Drawing.Size(33, 17);
+            this.lblGender.TabIndex = 31;
+            this.lblGender.Text = "Kön";
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(139, 171);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(160, 22);
+            this.textBox3.TabIndex = 29;
+            // 
+            // lblSize
+            // 
+            this.lblSize.AutoSize = true;
+            this.lblSize.Location = new System.Drawing.Point(86, 173);
+            this.lblSize.Name = "lblSize";
+            this.lblSize.Size = new System.Drawing.Size(52, 17);
+            this.lblSize.TabIndex = 31;
+            this.lblSize.Text = "Storlek";
+            // 
+            // cboGender
+            // 
+            this.cboGender.FormattingEnabled = true;
+            this.cboGender.Items.AddRange(new object[] {
+            "Dam",
+            "Herr"});
+            this.cboGender.Location = new System.Drawing.Point(139, 227);
+            this.cboGender.Name = "cboGender";
+            this.cboGender.Size = new System.Drawing.Size(160, 24);
+            this.cboGender.TabIndex = 32;
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(139, 257);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(60, 21);
+            this.checkBox1.TabIndex = 33;
+            this.checkBox1.Text = "Barn";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
+            // cboType
+            // 
+            this.cboType.FormattingEnabled = true;
+            this.cboType.Items.AddRange(new object[] {
+            "T-shirt",
+            "Skor",
+            "Hatt"});
+            this.cboType.Location = new System.Drawing.Point(139, 199);
+            this.cboType.Name = "cboType";
+            this.cboType.Size = new System.Drawing.Size(160, 24);
+            this.cboType.TabIndex = 32;
+            // 
             // frmAdmin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.ClientSize = new System.Drawing.Size(1024, 499);
+            this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.cboType);
+            this.Controls.Add(this.cboGender);
+            this.Controls.Add(this.lblGender);
+            this.Controls.Add(this.lblType);
+            this.Controls.Add(this.lblSize);
+            this.Controls.Add(this.lblPrice);
+            this.Controls.Add(this.lblName);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.button6);
+            this.Controls.Add(this.button5);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.txtPrice);
+            this.Controls.Add(this.txtName);
             this.Controls.Add(this.lblWomen);
             this.Controls.Add(this.lblChildren);
             this.Controls.Add(this.lblMen);
@@ -173,5 +360,22 @@
         private System.Windows.Forms.ListBox lstProducts;
         private System.Windows.Forms.TextBox txtSearch;
         private System.Windows.Forms.Label lblSearch;
+        private System.Windows.Forms.TextBox txtName;
+        private System.Windows.Forms.TextBox txtPrice;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Label lblName;
+        private System.Windows.Forms.Label lblPrice;
+        private System.Windows.Forms.Label lblType;
+        private System.Windows.Forms.Label lblGender;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Label lblSize;
+        private System.Windows.Forms.ComboBox cboGender;
+        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.ComboBox cboType;
     }
 }
