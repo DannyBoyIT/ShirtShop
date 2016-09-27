@@ -37,6 +37,68 @@ namespace ShirtShop
             return getUsers;
         }
 
+        public List<User> GetAllUsers()
+        {
+            List<User> getUsers = new List<User>();
+
+            User user1 = new User()
+            {
+                FirstName = "Jacob",
+                LastName = "Svensson",
+                Email = "kek@gmail.com",
+                Address = "Fyren 35",
+                City = "Stockholm",
+                Telephone = "0729282800",
+                Username = "Admin1",
+                Password = "1234"
+
+            };
+
+            User user2 = new User()
+            {
+                FirstName = "Daniel",
+                LastName = "Jacobsson",
+                Email = "mofo@gmail.com",
+                Address = "Gatan 16",
+                City = "Uppsala",
+                Telephone = "0723482821",
+                Username = "Admin2",
+                Password = "1234"
+
+            };
+
+            User user3 = new User()
+            {
+                FirstName = "Bea",
+                LastName = "Isacsson",
+                Email = "bea@gmail.com",
+                Address = "Jag bor gatan 122B",
+                City = "Stockholm",
+                Telephone = "0724589677",
+                Username = "Bea",
+                Password = "0000"
+
+            };
+
+            User user4 = new User()
+            {
+                FirstName = "Isabella",
+                LastName = "Freriksdottir",
+                Email = "bella@gmail.com",
+                Address = "Boendegatan 32A",
+                City = "Uppsala",
+                Telephone = "0728482835",
+                Username = "Bella",
+                Password = "0000"
+
+            };
+
+            getUsers.Add(user1);
+            getUsers.Add(user2);
+
+            return getUsers;
+        }
+
         public List<Product> GetAllHats()
         {
             var hats = new List<Product>();

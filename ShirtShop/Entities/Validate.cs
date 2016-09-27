@@ -24,12 +24,42 @@ namespace ShirtShop
 
         }
 
-        public static int CheckLoggedIn(string userName, string password)
+       
+        public static Enum CheckLoggedIn(string inputUsername, string inputPassword)
         {
-            //TODO Fixa check till databasen
-            //UserTypeEnum
+            DatabaseRepository checkUser = new DatabaseRepository();
 
-            return 0;
+            List<User> users = checkUser.GetAllUsers();
+
+            foreach (var user in users)
+            {
+                if (inputUsername == user.Username && inputPassword == user.Password)
+                {
+                    if (user.IsAdmin)
+                    {
+                        MessageBox.Show("Välkomen admin: " + user.FirstName + "!");
+                        return Enums.UserTypeEnum.Admin;
+                    }
+                    else
+                    {
+                        MessageBox.Show("Välkommen " + user.FirstName + "!");
+                        return Enums.UserTypeEnum.User;
+                    }
+
+                }
+                else if (inputUsername == user.Username && inputPassword != user.Password)
+                {
+                    MessageBox.Show("Fel lösenord! Försök igen.");
+                    return Enums.UserTypeEnum.NoUser;
+                }
+                else
+                {
+                    MessageBox.Show("Användarnamnet finns inte i vårt register. Har du skrivit in rätt användarnamn?!");
+                }
+
+            }
+
+            return Enums.UserTypeEnum.NoUser;
         }
 
         public static bool CheckUserInput(User getRegistration)
