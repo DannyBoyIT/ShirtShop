@@ -25,7 +25,7 @@ namespace ShirtShop
         }
 
        
-        public static Enum CheckLoggedIn(string inputUsername, string inputPassword)
+        public static UserTypeEnum CheckLoggedIn(string inputUsername, string inputPassword)
         {
             DatabaseRepository checkUser = new DatabaseRepository();
 
