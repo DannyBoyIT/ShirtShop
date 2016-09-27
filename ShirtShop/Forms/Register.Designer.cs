@@ -50,8 +50,8 @@
             this.btnClear = new System.Windows.Forms.Button();
             this.btnAlreadyAMember = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.cmbGender = new System.Windows.Forms.ComboBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.lblGender = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -245,14 +245,6 @@
             this.groupBox1.TabIndex = 21;
             this.groupBox1.TabStop = false;
             // 
-            // groupBox2
-            // 
-            this.groupBox2.Location = new System.Drawing.Point(128, 340);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(472, 204);
-            this.groupBox2.TabIndex = 22;
-            this.groupBox2.TabStop = false;
-            // 
             // cmbGender
             // 
             this.cmbGender.FormattingEnabled = true;
@@ -264,6 +256,14 @@
             this.cmbGender.Size = new System.Drawing.Size(121, 24);
             this.cmbGender.TabIndex = 0;
 
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Location = new System.Drawing.Point(128, 340);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(472, 204);
+            this.groupBox2.TabIndex = 22;
+            this.groupBox2.TabStop = false;
             // 
             // lblGender
             // 
