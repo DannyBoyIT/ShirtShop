@@ -9,12 +9,32 @@ namespace ShirtShop
     {
         public void CreateUser()
         {
-            throw new NotImplementedException();
+            
         }
 
         public void DeleteUser()
         {
-            throw new NotImplementedException();
+            
+        }
+
+        public List<User> GetAllUsers()
+        {
+            List<User> getUsers = new List<User>();
+
+            User User1 = new User();            
+  
+            User1.FirstName = "Jacob";
+            User1.LastName = "Svensson";
+            User1.Email = "kek@gmail.com";
+            User1.Address = "Fyren 35";
+            User1.City = "Stockholm";
+            User1.Telephone = "07292828";
+            User1.Username = "Yeahowwioe";
+            User1.Password = "1234";
+
+            getUsers.Add(User1);
+
+            return getUsers;
         }
 
         public List<Product> GetAllHats()
@@ -190,32 +210,32 @@ namespace ShirtShop
 
         public void GetHat()
         {
-            throw new NotImplementedException();
+            
         }
 
         public void GetShirt()
         {
-            throw new NotImplementedException();
+            
         }
 
         public void GetShoes()
         {
-            throw new NotImplementedException();
+            
         }
 
         public void SetHat()
         {
-            throw new NotImplementedException();
+            
         }
 
         public void SetShirt()
         {
-            throw new NotImplementedException();
+            
         }
 
         public void SetShoes()
         {
-            throw new NotImplementedException();
+            
         }
     }
 }

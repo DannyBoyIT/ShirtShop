@@ -9,7 +9,7 @@ namespace ShirtShop
     {
         void CreateUser();
         void DeleteUser();
-
+        List<User> GetAllUsers();
         List<Product> GetAllHats();
         List<Product> GetAllShirts();
         List<Product> GetAllShoes();
