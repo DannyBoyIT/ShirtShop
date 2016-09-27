@@ -31,7 +31,8 @@ namespace ShirtShop
 
         private void llblShoppingCart_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            
+            frmCart newFrmCart = new frmCart();
+            newFrmCart.Show();
         }
     }
 }
