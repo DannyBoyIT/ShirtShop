@@ -54,11 +54,8 @@ namespace ShirtShop
                 }
                 else
                 {
-                    MessageBox.Show(
-                        "Användarnamnet finns inte i vårt register. Har du skrivit in rätt användarnamn?!");
+                    MessageBox.Show("Användarnamnet finns inte i vårt register. Har du skrivit in rätt användarnamn?!");
                 }
-
-
 
             }
 
