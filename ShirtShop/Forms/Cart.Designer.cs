@@ -40,27 +40,30 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(13, 13);
+            this.label1.Location = new System.Drawing.Point(26, 25);
+            this.label1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(93, 17);
+            this.label1.Size = new System.Drawing.Size(183, 32);
             this.label1.TabIndex = 0;
             this.label1.Text = "Din varukorg:";
             // 
             // lstItemsInCart
             // 
             this.lstItemsInCart.FormattingEnabled = true;
-            this.lstItemsInCart.ItemHeight = 16;
-            this.lstItemsInCart.Location = new System.Drawing.Point(16, 44);
+            this.lstItemsInCart.ItemHeight = 31;
+            this.lstItemsInCart.Location = new System.Drawing.Point(32, 85);
+            this.lstItemsInCart.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.lstItemsInCart.Name = "lstItemsInCart";
-            this.lstItemsInCart.Size = new System.Drawing.Size(233, 116);
+            this.lstItemsInCart.Size = new System.Drawing.Size(462, 221);
             this.lstItemsInCart.TabIndex = 1;
             this.lstItemsInCart.SelectedIndexChanged += new System.EventHandler(this.lstItemsInCart_SelectedIndexChanged);
             // 
             // btnClearCart
             // 
-            this.btnClearCart.Location = new System.Drawing.Point(16, 183);
+            this.btnClearCart.Location = new System.Drawing.Point(32, 355);
+            this.btnClearCart.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.btnClearCart.Name = "btnClearCart";
-            this.btnClearCart.Size = new System.Drawing.Size(233, 33);
+            this.btnClearCart.Size = new System.Drawing.Size(466, 64);
             this.btnClearCart.TabIndex = 2;
             this.btnClearCart.Text = "Rensa varukorg";
             this.btnClearCart.UseVisualStyleBackColor = true;
@@ -68,27 +71,30 @@
             // 
             // btnCheckOut
             // 
-            this.btnCheckOut.Location = new System.Drawing.Point(16, 239);
+            this.btnCheckOut.Location = new System.Drawing.Point(32, 463);
+            this.btnCheckOut.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.btnCheckOut.Name = "btnCheckOut";
-            this.btnCheckOut.Size = new System.Drawing.Size(233, 32);
+            this.btnCheckOut.Size = new System.Drawing.Size(466, 62);
             this.btnCheckOut.TabIndex = 3;
             this.btnCheckOut.Text = "Gå till kassan";
             this.btnCheckOut.UseVisualStyleBackColor = true;
             // 
             // btnContinueShopping
             // 
-            this.btnContinueShopping.Location = new System.Drawing.Point(315, 240);
+            this.btnContinueShopping.Location = new System.Drawing.Point(630, 465);
+            this.btnContinueShopping.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.btnContinueShopping.Name = "btnContinueShopping";
-            this.btnContinueShopping.Size = new System.Drawing.Size(134, 31);
+            this.btnContinueShopping.Size = new System.Drawing.Size(268, 60);
             this.btnContinueShopping.TabIndex = 4;
             this.btnContinueShopping.Text = "Fortsätt shoppa";
             this.btnContinueShopping.UseVisualStyleBackColor = true;
             // 
             // btnAddItem
             // 
-            this.btnAddItem.Location = new System.Drawing.Point(315, 65);
+            this.btnAddItem.Location = new System.Drawing.Point(630, 126);
+            this.btnAddItem.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.btnAddItem.Name = "btnAddItem";
-            this.btnAddItem.Size = new System.Drawing.Size(104, 31);
+            this.btnAddItem.Size = new System.Drawing.Size(208, 60);
             this.btnAddItem.TabIndex = 5;
             this.btnAddItem.Text = "Lägg till fler";
             this.btnAddItem.UseVisualStyleBackColor = true;
@@ -96,19 +102,21 @@
             // 
             // btnRemoveItem
             // 
-            this.btnRemoveItem.Location = new System.Drawing.Point(315, 114);
+            this.btnRemoveItem.Location = new System.Drawing.Point(630, 221);
+            this.btnRemoveItem.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.btnRemoveItem.Name = "btnRemoveItem";
-            this.btnRemoveItem.Size = new System.Drawing.Size(104, 31);
+            this.btnRemoveItem.Size = new System.Drawing.Size(208, 60);
             this.btnRemoveItem.TabIndex = 6;
             this.btnRemoveItem.Text = "Ta bort";
             this.btnRemoveItem.UseVisualStyleBackColor = true;
             this.btnRemoveItem.Visible = false;
             // 
-            // Cart
+            // frmCart
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(475, 295);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.ClientSize = new System.Drawing.Size(950, 572);
             this.Controls.Add(this.btnRemoveItem);
             this.Controls.Add(this.btnAddItem);
             this.Controls.Add(this.btnContinueShopping);
@@ -116,7 +124,8 @@
             this.Controls.Add(this.btnClearCart);
             this.Controls.Add(this.lstItemsInCart);
             this.Controls.Add(this.label1);
-            this.Name = "Cart";
+            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Name = "frmCart";
             this.Text = "Varukorg";
             this.ResumeLayout(false);
             this.PerformLayout();
