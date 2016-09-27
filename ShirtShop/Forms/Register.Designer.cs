@@ -49,13 +49,18 @@
             this.btnRegister = new System.Windows.Forms.Button();
             this.btnClear = new System.Windows.Forms.Button();
             this.btnAlreadyAMember = new System.Windows.Forms.Button();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.cmbGender = new System.Windows.Forms.ComboBox();
+            this.lblGender = new System.Windows.Forms.Label();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // txtFirstName
             // 
             this.txtFirstName.Location = new System.Drawing.Point(186, 55);
             this.txtFirstName.Name = "txtFirstName";
-            this.txtFirstName.Size = new System.Drawing.Size(343, 38);
+            this.txtFirstName.Size = new System.Drawing.Size(343, 23);
             this.txtFirstName.TabIndex = 0;
             // 
             // lblFirstName
@@ -63,7 +68,7 @@
             this.lblFirstName.AutoSize = true;
             this.lblFirstName.Location = new System.Drawing.Point(12, 61);
             this.lblFirstName.Name = "lblFirstName";
-            this.lblFirstName.Size = new System.Drawing.Size(122, 31);
+            this.lblFirstName.Size = new System.Drawing.Size(64, 17);
             this.lblFirstName.TabIndex = 1;
             this.lblFirstName.Text = "Förnamn";
             // 
@@ -72,7 +77,7 @@
             this.lblLastName.AutoSize = true;
             this.lblLastName.Location = new System.Drawing.Point(12, 107);
             this.lblLastName.Name = "lblLastName";
-            this.lblLastName.Size = new System.Drawing.Size(139, 31);
+            this.lblLastName.Size = new System.Drawing.Size(73, 17);
             this.lblLastName.TabIndex = 2;
             this.lblLastName.Text = "Efternamn";
             // 
@@ -81,7 +86,7 @@
             this.lblEmail.AutoSize = true;
             this.lblEmail.Location = new System.Drawing.Point(12, 145);
             this.lblEmail.Name = "lblEmail";
-            this.lblEmail.Size = new System.Drawing.Size(81, 31);
+            this.lblEmail.Size = new System.Drawing.Size(42, 17);
             this.lblEmail.TabIndex = 3;
             this.lblEmail.Text = "Email";
             // 
@@ -90,7 +95,7 @@
             this.lblAddress.AutoSize = true;
             this.lblAddress.Location = new System.Drawing.Point(12, 184);
             this.lblAddress.Name = "lblAddress";
-            this.lblAddress.Size = new System.Drawing.Size(99, 31);
+            this.lblAddress.Size = new System.Drawing.Size(52, 17);
             this.lblAddress.TabIndex = 4;
             this.lblAddress.Text = "Adress";
             // 
@@ -99,7 +104,7 @@
             this.lblMobileNumber.AutoSize = true;
             this.lblMobileNumber.Location = new System.Drawing.Point(12, 264);
             this.lblMobileNumber.Name = "lblMobileNumber";
-            this.lblMobileNumber.Size = new System.Drawing.Size(105, 31);
+            this.lblMobileNumber.Size = new System.Drawing.Size(56, 17);
             this.lblMobileNumber.TabIndex = 5;
             this.lblMobileNumber.Text = "Telefon";
             this.lblMobileNumber.Click += new System.EventHandler(this.lblMobileNumber_Click);
@@ -109,7 +114,7 @@
             this.lblUsername.AutoSize = true;
             this.lblUsername.Location = new System.Drawing.Point(12, 383);
             this.lblUsername.Name = "lblUsername";
-            this.lblUsername.Size = new System.Drawing.Size(197, 31);
+            this.lblUsername.Size = new System.Drawing.Size(104, 17);
             this.lblUsername.TabIndex = 6;
             this.lblUsername.Text = "Användarnamn";
             this.lblUsername.Click += new System.EventHandler(this.label5_Click);
@@ -119,7 +124,7 @@
             this.lblCityName.AutoSize = true;
             this.lblCityName.Location = new System.Drawing.Point(12, 222);
             this.lblCityName.Name = "lblCityName";
-            this.lblCityName.Size = new System.Drawing.Size(70, 31);
+            this.lblCityName.Size = new System.Drawing.Size(37, 17);
             this.lblCityName.TabIndex = 7;
             this.lblCityName.Text = "Stad";
             // 
@@ -128,7 +133,7 @@
             this.lblPassword.AutoSize = true;
             this.lblPassword.Location = new System.Drawing.Point(12, 438);
             this.lblPassword.Name = "lblPassword";
-            this.lblPassword.Size = new System.Drawing.Size(127, 31);
+            this.lblPassword.Size = new System.Drawing.Size(68, 17);
             this.lblPassword.TabIndex = 8;
             this.lblPassword.Text = "Lösenord";
             // 
@@ -138,7 +143,7 @@
             this.lblUserInfo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUserInfo.Location = new System.Drawing.Point(258, 336);
             this.lblUserInfo.Name = "lblUserInfo";
-            this.lblUserInfo.Size = new System.Drawing.Size(397, 46);
+            this.lblUserInfo.Size = new System.Drawing.Size(207, 25);
             this.lblUserInfo.TabIndex = 9;
             this.lblUserInfo.Text = "Inloggningsuppgifter";
             // 
@@ -146,49 +151,49 @@
             // 
             this.txtLastName.Location = new System.Drawing.Point(186, 101);
             this.txtLastName.Name = "txtLastName";
-            this.txtLastName.Size = new System.Drawing.Size(343, 38);
+            this.txtLastName.Size = new System.Drawing.Size(343, 23);
             this.txtLastName.TabIndex = 10;
             // 
             // txtEmail
             // 
             this.txtEmail.Location = new System.Drawing.Point(186, 139);
             this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(343, 38);
+            this.txtEmail.Size = new System.Drawing.Size(343, 23);
             this.txtEmail.TabIndex = 11;
             // 
             // txtAdress
             // 
             this.txtAdress.Location = new System.Drawing.Point(186, 178);
             this.txtAdress.Name = "txtAdress";
-            this.txtAdress.Size = new System.Drawing.Size(343, 38);
+            this.txtAdress.Size = new System.Drawing.Size(343, 23);
             this.txtAdress.TabIndex = 12;
             // 
             // txtCity
             // 
             this.txtCity.Location = new System.Drawing.Point(186, 216);
             this.txtCity.Name = "txtCity";
-            this.txtCity.Size = new System.Drawing.Size(343, 38);
+            this.txtCity.Size = new System.Drawing.Size(343, 23);
             this.txtCity.TabIndex = 13;
             // 
             // txtTelephone
             // 
             this.txtTelephone.Location = new System.Drawing.Point(186, 258);
             this.txtTelephone.Name = "txtTelephone";
-            this.txtTelephone.Size = new System.Drawing.Size(343, 38);
+            this.txtTelephone.Size = new System.Drawing.Size(343, 23);
             this.txtTelephone.TabIndex = 14;
             // 
             // txtUsername
             // 
             this.txtUsername.Location = new System.Drawing.Point(186, 377);
             this.txtUsername.Name = "txtUsername";
-            this.txtUsername.Size = new System.Drawing.Size(343, 38);
+            this.txtUsername.Size = new System.Drawing.Size(343, 23);
             this.txtUsername.TabIndex = 15;
             // 
             // txtPassword
             // 
             this.txtPassword.Location = new System.Drawing.Point(186, 432);
             this.txtPassword.Name = "txtPassword";
-            this.txtPassword.Size = new System.Drawing.Size(343, 38);
+            this.txtPassword.Size = new System.Drawing.Size(343, 23);
             this.txtPassword.TabIndex = 16;
             // 
             // label1
@@ -197,7 +202,7 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(283, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(325, 46);
+            this.label1.Size = new System.Drawing.Size(170, 25);
             this.label1.TabIndex = 17;
             this.label1.Text = "Kontaktuppgifter";
             // 
@@ -231,12 +236,50 @@
             this.btnAlreadyAMember.UseVisualStyleBackColor = true;
             this.btnAlreadyAMember.Click += new System.EventHandler(this.btnAlreadyAMember_Click);
             // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.cmbGender);
+            this.groupBox1.Location = new System.Drawing.Point(128, 12);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(472, 313);
+            this.groupBox1.TabIndex = 21;
+            this.groupBox1.TabStop = false;
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Location = new System.Drawing.Point(128, 340);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(472, 204);
+            this.groupBox2.TabIndex = 22;
+            this.groupBox2.TabStop = false;
+            // 
+            // cmbGender
+            // 
+            this.cmbGender.FormattingEnabled = true;
+            this.cmbGender.Items.AddRange(new object[] {
+            "Kvinna",
+            "Man"});
+            this.cmbGender.Location = new System.Drawing.Point(58, 283);
+            this.cmbGender.Name = "cmbGender";
+            this.cmbGender.Size = new System.Drawing.Size(121, 24);
+            this.cmbGender.TabIndex = 0;
+            // 
+            // lblGender
+            // 
+            this.lblGender.AutoSize = true;
+            this.lblGender.Location = new System.Drawing.Point(12, 302);
+            this.lblGender.Name = "lblGender";
+            this.lblGender.Size = new System.Drawing.Size(33, 17);
+            this.lblGender.TabIndex = 23;
+            this.lblGender.Text = "Kön";
+            // 
             // frmRegister
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.ClientSize = new System.Drawing.Size(706, 546);
+            this.Controls.Add(this.lblGender);
             this.Controls.Add(this.btnAlreadyAMember);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.btnRegister);
@@ -258,9 +301,12 @@
             this.Controls.Add(this.lblLastName);
             this.Controls.Add(this.lblFirstName);
             this.Controls.Add(this.txtFirstName);
+            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.groupBox2);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "frmRegister";
             this.Text = "Register";
+            this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -289,5 +335,9 @@
         private System.Windows.Forms.Button btnRegister;
         private System.Windows.Forms.Button btnClear;
         private System.Windows.Forms.Button btnAlreadyAMember;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.ComboBox cmbGender;
+        private System.Windows.Forms.Label lblGender;
     }
 }
