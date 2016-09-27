@@ -20,7 +20,12 @@ namespace ShirtShop
 
         private void btnLoggIn_Click(object sender, EventArgs e)
         {
-            Enum typeOfUser = ShirtShop.Validate.CheckLoggedIn(txtUserName.Text, txtPassWord.Text);//++
+            Enum typeOfUser = ShirtShop.Validate.CheckLoggedIn(txtUserName.Text, txtPassWord.Text);
+
+            if (true)
+            {
+                
+            }
 
         }
 
