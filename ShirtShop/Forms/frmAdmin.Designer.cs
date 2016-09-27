@@ -137,7 +137,7 @@
             // 
             // txtSearch
             // 
-            this.txtSearch.Location = new System.Drawing.Point(814, 76);
+            this.txtSearch.Location = new System.Drawing.Point(655, 79);
             this.txtSearch.Margin = new System.Windows.Forms.Padding(2);
             this.txtSearch.Name = "txtSearch";
             this.txtSearch.Size = new System.Drawing.Size(191, 22);
@@ -147,7 +147,7 @@
             // 
             this.lblSearch.AutoSize = true;
             this.lblSearch.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.lblSearch.Location = new System.Drawing.Point(779, 76);
+            this.lblSearch.Location = new System.Drawing.Point(620, 79);
             this.lblSearch.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblSearch.Name = "lblSearch";
             this.lblSearch.Size = new System.Drawing.Size(32, 17);
@@ -285,7 +285,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.ClientSize = new System.Drawing.Size(1024, 499);
+            this.ClientSize = new System.Drawing.Size(900, 499);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.cmbType);
             this.Controls.Add(this.cmbGender);
