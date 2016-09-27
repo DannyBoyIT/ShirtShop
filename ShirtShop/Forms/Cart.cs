@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ShirtShop
 {
-    public partial class Cart : Form
+    public partial class frmCart : Form
     {
-        public Cart()
+        public frmCart()
         {
             InitializeComponent();
         }

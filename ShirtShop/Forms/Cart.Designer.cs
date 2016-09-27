@@ -1,6 +1,6 @@
 ﻿namespace ShirtShop
 {
-    partial class Cart
+    partial class frmCart
     {
         /// <summary>
         /// Required designer variable.
