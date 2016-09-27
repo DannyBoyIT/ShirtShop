@@ -21,5 +21,10 @@ namespace ShirtShop
         {
           
         }
+
+        public void RemoveUser()
+        {
+
+        }
     }
 }

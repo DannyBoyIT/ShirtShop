@@ -39,12 +39,9 @@
             this.lblSearch = new System.Windows.Forms.Label();
             this.txtName = new System.Windows.Forms.TextBox();
             this.txtPrice = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
+            this.btnRemoveProduct = new System.Windows.Forms.Button();
+            this.btnChangeProduct = new System.Windows.Forms.Button();
+            this.btnCreateProduct = new System.Windows.Forms.Button();
             this.lblName = new System.Windows.Forms.Label();
             this.lblPrice = new System.Windows.Forms.Label();
             this.lblType = new System.Windows.Forms.Label();
@@ -171,59 +168,32 @@
             this.txtPrice.Size = new System.Drawing.Size(160, 22);
             this.txtPrice.TabIndex = 29;
             // 
-            // button1
+            // btnRemoveProduct
             // 
-            this.button1.Location = new System.Drawing.Point(394, 397);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 30;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnRemoveProduct.Location = new System.Drawing.Point(394, 396);
+            this.btnRemoveProduct.Name = "btnRemoveProduct";
+            this.btnRemoveProduct.Size = new System.Drawing.Size(75, 23);
+            this.btnRemoveProduct.TabIndex = 30;
+            this.btnRemoveProduct.Text = "Ta bort";
+            this.btnRemoveProduct.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btnChangeProduct
             // 
-            this.button2.Location = new System.Drawing.Point(475, 397);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 30;
-            this.button2.Text = "button1";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnChangeProduct.Location = new System.Drawing.Point(139, 284);
+            this.btnChangeProduct.Name = "btnChangeProduct";
+            this.btnChangeProduct.Size = new System.Drawing.Size(160, 23);
+            this.btnChangeProduct.TabIndex = 30;
+            this.btnChangeProduct.Text = "Spara ändringar";
+            this.btnChangeProduct.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btnCreateProduct
             // 
-            this.button3.Location = new System.Drawing.Point(394, 397);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 30;
-            this.button3.Text = "button1";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(475, 397);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 30;
-            this.button4.Text = "button1";
-            this.button4.UseVisualStyleBackColor = true;
-            // 
-            // button5
-            // 
-            this.button5.Location = new System.Drawing.Point(139, 311);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(75, 23);
-            this.button5.TabIndex = 30;
-            this.button5.Text = "button1";
-            this.button5.UseVisualStyleBackColor = true;
-            // 
-            // button6
-            // 
-            this.button6.Location = new System.Drawing.Point(224, 311);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(75, 23);
-            this.button6.TabIndex = 30;
-            this.button6.Text = "button1";
-            this.button6.UseVisualStyleBackColor = true;
+            this.btnCreateProduct.Location = new System.Drawing.Point(139, 313);
+            this.btnCreateProduct.Name = "btnCreateProduct";
+            this.btnCreateProduct.Size = new System.Drawing.Size(160, 23);
+            this.btnCreateProduct.TabIndex = 30;
+            this.btnCreateProduct.Text = "Lägg till produkt";
+            this.btnCreateProduct.UseVisualStyleBackColor = true;
             // 
             // lblName
             // 
@@ -324,12 +294,9 @@
             this.Controls.Add(this.lblSize);
             this.Controls.Add(this.lblPrice);
             this.Controls.Add(this.lblName);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnRemoveProduct);
+            this.Controls.Add(this.btnCreateProduct);
+            this.Controls.Add(this.btnChangeProduct);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.txtPrice);
             this.Controls.Add(this.txtName);
@@ -362,12 +329,9 @@
         private System.Windows.Forms.Label lblSearch;
         private System.Windows.Forms.TextBox txtName;
         private System.Windows.Forms.TextBox txtPrice;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button btnRemoveProduct;
+        private System.Windows.Forms.Button btnChangeProduct;
+        private System.Windows.Forms.Button btnCreateProduct;
         private System.Windows.Forms.Label lblName;
         private System.Windows.Forms.Label lblPrice;
         private System.Windows.Forms.Label lblType;
