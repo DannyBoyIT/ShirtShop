@@ -7,14 +7,16 @@ namespace ShirtShop
 {
     public class DatabaseRepository : IDatabaseRepository
     {
-        public void CreateUser()
+        public void  CreateUser()
         {
-            throw new NotImplementedException();
+            var createUser = new User();
+            
         }
 
-        public void DeleteUser()
+        public List<User> DeleteUser()
         {
-            throw new NotImplementedException();
+            List<User> deleteUser = new List<User>();
+            return deleteUser;
         }
 
         public List<User> GetAllUsers()

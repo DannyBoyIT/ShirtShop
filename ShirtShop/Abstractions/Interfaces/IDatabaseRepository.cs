@@ -8,8 +8,7 @@ namespace ShirtShop
     public interface IDatabaseRepository
     {
         void CreateUser();
-        void DeleteUser();
-
+        List<User> DeleteUser();
         List<Product> GetAllHats();
         List<Product> GetAllShirts();
         List<Product> GetAllShoes();
