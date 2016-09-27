@@ -61,6 +61,7 @@ namespace ShirtShop
                 newRegistration.Telephone = txtTelephone.Text;
                 newRegistration.Username = txtUsername.Text;
                 newRegistration.Password = txtPassword.Text;
+                newRegistration.Gender = cmbGender.Text;
 
                 var AllInputOk = ShirtShop.Validate.CheckUserInput(newRegistration);
 

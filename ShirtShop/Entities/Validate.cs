@@ -100,6 +100,12 @@ namespace ShirtShop
                 MessageBox.Show("Lösenordet saknas");
                 inputOk = false;
             }
+            if (string.IsNullOrEmpty(getRegistration.Gender))
+            {
+                MessageBox.Show("Kön saknas!");
+                inputOk = false;
+            }
+
 
             return inputOk;
         }
