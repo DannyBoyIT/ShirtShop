@@ -31,9 +31,9 @@
             this.lblWomen = new System.Windows.Forms.Label();
             this.lblChildren = new System.Windows.Forms.Label();
             this.lblMen = new System.Windows.Forms.Label();
-            this.cboChildren = new System.Windows.Forms.ComboBox();
-            this.cboWomen = new System.Windows.Forms.ComboBox();
-            this.cboMen = new System.Windows.Forms.ComboBox();
+            this.cmbKid = new System.Windows.Forms.ComboBox();
+            this.cmbWomen = new System.Windows.Forms.ComboBox();
+            this.cmbMen = new System.Windows.Forms.ComboBox();
             this.lstProducts = new System.Windows.Forms.ListBox();
             this.txtSearch = new System.Windows.Forms.TextBox();
             this.lblSearch = new System.Windows.Forms.Label();
@@ -48,9 +48,9 @@
             this.lblGender = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.lblSize = new System.Windows.Forms.Label();
-            this.cboGender = new System.Windows.Forms.ComboBox();
+            this.cmbGender = new System.Windows.Forms.ComboBox();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.cboType = new System.Windows.Forms.ComboBox();
+            this.cmbType = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // lblWomen
@@ -86,44 +86,44 @@
             this.lblMen.TabIndex = 26;
             this.lblMen.Text = "Herr";
             // 
-            // cboChildren
+            // cmbKid
             // 
-            this.cboChildren.FormattingEnabled = true;
-            this.cboChildren.Items.AddRange(new object[] {
+            this.cmbKid.FormattingEnabled = true;
+            this.cmbKid.Items.AddRange(new object[] {
             "Hattar",
             "T-shirts",
             "Skor"});
-            this.cboChildren.Location = new System.Drawing.Point(264, 42);
-            this.cboChildren.Margin = new System.Windows.Forms.Padding(2);
-            this.cboChildren.Name = "cboChildren";
-            this.cboChildren.Size = new System.Drawing.Size(110, 24);
-            this.cboChildren.TabIndex = 25;
+            this.cmbKid.Location = new System.Drawing.Point(264, 42);
+            this.cmbKid.Margin = new System.Windows.Forms.Padding(2);
+            this.cmbKid.Name = "cmbKid";
+            this.cmbKid.Size = new System.Drawing.Size(110, 24);
+            this.cmbKid.TabIndex = 25;
             // 
-            // cboWomen
+            // cmbWomen
             // 
-            this.cboWomen.FormattingEnabled = true;
-            this.cboWomen.Items.AddRange(new object[] {
+            this.cmbWomen.FormattingEnabled = true;
+            this.cmbWomen.Items.AddRange(new object[] {
             "Hattar",
             "T-shirts",
             "Skor"});
-            this.cboWomen.Location = new System.Drawing.Point(139, 42);
-            this.cboWomen.Margin = new System.Windows.Forms.Padding(2);
-            this.cboWomen.Name = "cboWomen";
-            this.cboWomen.Size = new System.Drawing.Size(110, 24);
-            this.cboWomen.TabIndex = 24;
+            this.cmbWomen.Location = new System.Drawing.Point(139, 42);
+            this.cmbWomen.Margin = new System.Windows.Forms.Padding(2);
+            this.cmbWomen.Name = "cmbWomen";
+            this.cmbWomen.Size = new System.Drawing.Size(110, 24);
+            this.cmbWomen.TabIndex = 24;
             // 
-            // cboMen
+            // cmbMen
             // 
-            this.cboMen.FormattingEnabled = true;
-            this.cboMen.Items.AddRange(new object[] {
+            this.cmbMen.FormattingEnabled = true;
+            this.cmbMen.Items.AddRange(new object[] {
             "Hattar",
             "T-shirts",
             "Skor"});
-            this.cboMen.Location = new System.Drawing.Point(11, 42);
-            this.cboMen.Margin = new System.Windows.Forms.Padding(2);
-            this.cboMen.Name = "cboMen";
-            this.cboMen.Size = new System.Drawing.Size(110, 24);
-            this.cboMen.TabIndex = 23;
+            this.cmbMen.Location = new System.Drawing.Point(11, 42);
+            this.cmbMen.Margin = new System.Windows.Forms.Padding(2);
+            this.cmbMen.Name = "cmbMen";
+            this.cmbMen.Size = new System.Drawing.Size(110, 24);
+            this.cmbMen.TabIndex = 23;
             // 
             // lstProducts
             // 
@@ -247,16 +247,16 @@
             this.lblSize.TabIndex = 31;
             this.lblSize.Text = "Storlek";
             // 
-            // cboGender
+            // cmbGender
             // 
-            this.cboGender.FormattingEnabled = true;
-            this.cboGender.Items.AddRange(new object[] {
+            this.cmbGender.FormattingEnabled = true;
+            this.cmbGender.Items.AddRange(new object[] {
             "Dam",
             "Herr"});
-            this.cboGender.Location = new System.Drawing.Point(139, 227);
-            this.cboGender.Name = "cboGender";
-            this.cboGender.Size = new System.Drawing.Size(160, 24);
-            this.cboGender.TabIndex = 32;
+            this.cmbGender.Location = new System.Drawing.Point(139, 227);
+            this.cmbGender.Name = "cmbGender";
+            this.cmbGender.Size = new System.Drawing.Size(160, 24);
+            this.cmbGender.TabIndex = 32;
             // 
             // checkBox1
             // 
@@ -268,17 +268,17 @@
             this.checkBox1.Text = "Barn";
             this.checkBox1.UseVisualStyleBackColor = true;
             // 
-            // cboType
+            // cmbType
             // 
-            this.cboType.FormattingEnabled = true;
-            this.cboType.Items.AddRange(new object[] {
+            this.cmbType.FormattingEnabled = true;
+            this.cmbType.Items.AddRange(new object[] {
             "T-shirt",
             "Skor",
             "Hatt"});
-            this.cboType.Location = new System.Drawing.Point(139, 199);
-            this.cboType.Name = "cboType";
-            this.cboType.Size = new System.Drawing.Size(160, 24);
-            this.cboType.TabIndex = 32;
+            this.cmbType.Location = new System.Drawing.Point(139, 199);
+            this.cmbType.Name = "cmbType";
+            this.cmbType.Size = new System.Drawing.Size(160, 24);
+            this.cmbType.TabIndex = 32;
             // 
             // frmAdmin
             // 
@@ -287,8 +287,8 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.ClientSize = new System.Drawing.Size(1024, 499);
             this.Controls.Add(this.checkBox1);
-            this.Controls.Add(this.cboType);
-            this.Controls.Add(this.cboGender);
+            this.Controls.Add(this.cmbType);
+            this.Controls.Add(this.cmbGender);
             this.Controls.Add(this.lblGender);
             this.Controls.Add(this.lblType);
             this.Controls.Add(this.lblSize);
@@ -303,9 +303,9 @@
             this.Controls.Add(this.lblWomen);
             this.Controls.Add(this.lblChildren);
             this.Controls.Add(this.lblMen);
-            this.Controls.Add(this.cboChildren);
-            this.Controls.Add(this.cboWomen);
-            this.Controls.Add(this.cboMen);
+            this.Controls.Add(this.cmbKid);
+            this.Controls.Add(this.cmbWomen);
+            this.Controls.Add(this.cmbMen);
             this.Controls.Add(this.lstProducts);
             this.Controls.Add(this.txtSearch);
             this.Controls.Add(this.lblSearch);
@@ -321,9 +321,9 @@
         private System.Windows.Forms.Label lblWomen;
         private System.Windows.Forms.Label lblChildren;
         private System.Windows.Forms.Label lblMen;
-        private System.Windows.Forms.ComboBox cboChildren;
-        private System.Windows.Forms.ComboBox cboWomen;
-        private System.Windows.Forms.ComboBox cboMen;
+        private System.Windows.Forms.ComboBox cmbKid;
+        private System.Windows.Forms.ComboBox cmbWomen;
+        private System.Windows.Forms.ComboBox cmbMen;
         private System.Windows.Forms.ListBox lstProducts;
         private System.Windows.Forms.TextBox txtSearch;
         private System.Windows.Forms.Label lblSearch;
@@ -338,8 +338,8 @@
         private System.Windows.Forms.Label lblGender;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Label lblSize;
-        private System.Windows.Forms.ComboBox cboGender;
+        private System.Windows.Forms.ComboBox cmbGender;
         private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.ComboBox cboType;
+        private System.Windows.Forms.ComboBox cmbType;
     }
 }
